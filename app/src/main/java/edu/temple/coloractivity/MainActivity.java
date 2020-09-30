@@ -13,11 +13,11 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class MainActivity1 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     ListView simpleList;
 
-    String [] color = {"Red","Yellow","Blue","Green","Gray","Magenta","Cyan","Black"};
+    String [] color = {"Red","Yellow","Blue","Green","Gray","Magenta","Cyan","Black","Maroon","Olive"};
 
     int size = color.length;
 
